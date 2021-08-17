@@ -1,0 +1,179 @@
+
+/*----------------------------FUENTE DE PAGINA-------------------------------*/
+
+*{
+
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    zoom: 97%;
+}
+
+/*--------------------------------------------------------------------------*/
+
+
+/*-----------------------------------FONDO----------------------------------*/
+
+body{
+
+    background-image: url(../img/hero_image.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/*-------------------------------------------------------------------------*/
+
+
+/*-----------------------------BARRA DE NAVEGACION-------------------------*/
+
+.header .navbar {
+  background-color: transparent !important;
+}
+
+/*-------------------------------------------------------------------------*/
+
+
+/*----------------------------TITULO DE PAGINA-----------------------------*/
+
+div.title{
+
+    position: relative;
+    top: 120px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+/*------------------------------------------------------------------------*/
+
+
+/*--------------------------------SUBTITULO-------------------------------*/
+
+div.subtitle{
+
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    top: 130px;
+}
+
+/*------------------------------------------------------------------------*/
+
+
+/*------------------------BOTON (ver catalogo)----------------------------*/
+
+button{
+
+    width: 12%;
+    height: 30%;
+    background-color: #bf5d0c;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    border-style: none;
+
+
+}
+
+#boton{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 160px;
+    
+}
+
+/*------------------------------------------------------------------------*/
+
+
+
+
+/*-------------------------------PIE DE PAGINA----------------------------*/
+
+#footer{
+
+    background-color: #944800;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    position: fixed;
+}
+
+.localizacion{
+
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+    
+}
+
+.direccion{
+
+    color: white;
+    margin-left: 15px;
+    font-size: 15px;
+    
+}
+
+.movil{
+
+    color: white;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.title-pagina{
+
+    
+    color: white;
+    font-weight: bold ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.pagina-1{
+
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina-2{
+
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina-3{
+
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos{
+
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.navbar-nav{
+
+    margin-left: 10%;
+}
+
+/*-------------------------------------------------------------------------*/
